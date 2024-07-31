@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  min-height: 100vh;
+  display: flex;
+}
+
+#root{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App{
+  width: 100%;
+  /* max-width: 800px; */
+  min-height: 100vh;
+  flex-direction: column;
+}
